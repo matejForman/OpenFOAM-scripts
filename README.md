@@ -24,4 +24,13 @@ ffmpeg parameters used are:
 Use: makeMovie.sh \<name\>     \<outputName\>.mp4
 
 
+## joinMovies.sh
+script to combine two videos side-by-side or stacked:
+
+```
+./combine_videos.sh video1.mp4 video2.mp4 vertical output.mp4
+./combine_videos.sh video1.mp4 video2.mp4 v output.mp4
+```
+
+
 
